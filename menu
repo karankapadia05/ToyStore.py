@@ -1,0 +1,18 @@
+def menu():
+    print("Welcome to TOY STORE")
+    for i in range(len(category)):
+        print((i+1),".",category[i])
+    print("9 . Cart")
+    print("0 . Exit")
+    c=int(input("Choose a category: "))
+    if c==1 :
+        infants()
+    elif c==2 :
+        toddlers()
+    elif c==3 :
+        children()
+    elif c==9 :
+        cart()
+    elif c==0 :
+        print("Thanks for Shopping with Us.")
+menu()
