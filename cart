@@ -1,0 +1,38 @@
+def cart():
+    sum=0
+    print("Sr no.\tProduct\t\t\t Quantity  \t\t Payable Amount")
+    for i in range(len(crt)):
+        print((i+1),".",crt[i],"\t",amt[i],"\t\t\t",tamt[i])
+        sum=sum+tamt[i]
+    print("The payable Amount is ",sum)
+    print("1 . Buy")
+    print("2 . Remove item")
+    print("3 . Continue Shopping")
+    print("4 . Exit")
+    c=int(input("Enter Your choice: "))
+    if(c==1):
+        print("                             Bill")
+        print("Name: ",name,"              Phone number: ",p_no)
+        print("________________________________________________________________________")
+        print("\tProduct\t\t\t Quantity  \t\t Payable Amount")
+        print("________________________________________________________________________")
+        for i in range(len(crt)):
+            print((i+1),".",crt[i],"\t",amt[i],"\t\t\t",tamt[i])
+        print("________________________________________________________________________")
+        print("The Amount Payed is ",sum)
+        print("Thanks For Shopping with us")
+    elif(c==2):
+        n=int(input("Which product do u want to delete: "))
+        for i in range((n-1),(len(crt)-1)):
+            crt[i]=crt[i+1]
+            amt[i]=amt[i+1]
+        crt.pop()
+        amt.pop()
+        cart()
+    elif(c==3):
+        menu()
+    elif(c==4):
+        print("Thanks for Shopping with Us.")
+    else:
+        print("Please Enter a valid Choice")
+        cart()
