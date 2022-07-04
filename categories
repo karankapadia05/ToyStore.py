@@ -1,0 +1,45 @@
+def infants():
+    print("Welcome to Infants section")
+    for i in range(len(infant)):
+        print((i+1),".",infant[i],"\t\t",infant_price[i])
+    print("0 . Main Menu")
+    c=int(input("Choose a product: "))
+    a=int(input("Enter the ammount: "))
+    if c>=0 and c<=5 :
+        crt.append(infant[i-1])
+        amt.append(a)
+        total=infant_price[i-1]*a
+        tamt.append(total)
+    if(c==0):
+        menu()
+    menu()
+def toddlers():
+    print("Welcome to toddlers section")
+    for i in range(len(toddler)):
+        print((i+1),".",toddler[i],"\t\t",toddler_price[i])
+    print("0 . Main Menu")
+    c=int(input("Choose a product: "))
+    a=int(input("Enter the ammount: "))
+    if c>=0 and c<=5 :
+        crt.append(toddler[i-1])
+        amt.append(a)
+        total=infant_price[i-1]*a
+        tamt.append(total)
+    if(c==0):
+        menu()
+    menu()
+def children():
+    print("Welcome to children section")
+    for i in range(len(child)):
+        print((i+1),".",child[i],"\t\t",child_price[i])
+    print("0 . Main Menu")
+    c=int(input("Choose a product: "))
+    a=int(input("Enter the ammount: "))
+    if c>=0 and c<=5 :
+        crt.append(child[i-1])
+        amt.append(a)
+        total=child_price[i-1]*a
+        tamt.append(total)
+    if(c==0):
+        menu()
+    menu()
