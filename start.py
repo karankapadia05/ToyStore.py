@@ -1,0 +1,12 @@
+category=["Infants","Toddlers","Childern"]
+infant=["Ping Ping Panda, 32Cm","Happyland Ride on Bus","Soft Caterpillar     ","Soft Fighter Panda     ","Bear Ball Pit           "]
+infant_price=[2199,2999,1499,899,2799]
+toddler=["Super buddy Rabbito","Xylophone             ","Splash Light Up Turtle","Tricycle               ","Learning blocks     "]
+toddler_price=[4000,1299,600,6000,2000]
+child=["Jumbo Teddy            ","Stunt Car             ","Penguin Soft Toys        ","Musicjam Playmat        ","Musical Bee Catcher Game"]
+child_price=[3999,2000,2799,3499,1000]
+crt=[]
+amt=[]
+tamt=[]
+name=input(("Please enter your name: "))
+p_no=int(input("Please enter your phone number: "))
