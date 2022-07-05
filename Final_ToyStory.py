@@ -18,9 +18,9 @@ def infants():
     c=int(input("Choose a product: "))
     a=int(input("Enter the ammount: "))
     if c>=0 and c<=5 :
-        crt.append(infant[i-1])
+        crt.append(infant[c-1])
         amt.append(a)
-        total=infant_price[i-1]*a
+        total=infant_price[c-1]*a
         tamt.append(total)
     if(c==0):
         menu()
@@ -33,9 +33,9 @@ def toddlers():
     c=int(input("Choose a product: "))
     a=int(input("Enter the ammount: "))
     if c>=0 and c<=5 :
-        crt.append(toddler[i-1])
+        crt.append(toddler[c-1])
         amt.append(a)
-        total=infant_price[i-1]*a
+        total=infant_price[c-1]*a
         tamt.append(total)
     if(c==0):
         menu()
@@ -48,9 +48,9 @@ def children():
     c=int(input("Choose a product: "))
     a=int(input("Enter the ammount: "))
     if c>=0 and c<=5 :
-        crt.append(child[i-1])
+        crt.append(child[c-1])
         amt.append(a)
-        total=child_price[i-1]*a
+        total=child_price[c-1]*a
         tamt.append(total)
     if(c==0):
         menu()
