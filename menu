@@ -15,4 +15,4 @@ def menu():
         cart()
     elif c==0 :
         print("Thanks for Shopping with Us.")
-menu()
+
