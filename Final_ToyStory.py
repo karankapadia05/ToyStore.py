@@ -110,4 +110,7 @@ def menu():
         cart()
     elif c==0 :
         print("Thanks for Shopping with Us.")
+    else:
+        print("Enter a valid choice")
+        menu()
 menu()
