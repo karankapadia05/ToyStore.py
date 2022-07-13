@@ -16,7 +16,7 @@ def infants():
         print((i+1),".",infant[i],"\t\t",infant_price[i])
     print("0 . Main Menu")
     c=int(input("Choose a product: "))
-    a=int(input("Enter the ammount: "))
+    a=int(input("Enter the number of items: "))
     if c>=0 and c<=5 :
         crt.append(infant[c-1])
         amt.append(a)
@@ -31,7 +31,7 @@ def toddlers():
         print((i+1),".",toddler[i],"\t\t",toddler_price[i])
     print("0 . Main Menu")
     c=int(input("Choose a product: "))
-    a=int(input("Enter the ammount: "))
+    a=int(input("Enter the number of items: "))
     if c>=0 and c<=5 :
         crt.append(toddler[c-1])
         amt.append(a)
@@ -46,7 +46,7 @@ def children():
         print((i+1),".",child[i],"\t\t",child_price[i])
     print("0 . Main Menu")
     c=int(input("Choose a product: "))
-    a=int(input("Enter the ammount: "))
+    a=int(input("Enter the number of items: "))
     if c>=0 and c<=5 :
         crt.append(child[c-1])
         amt.append(a)
