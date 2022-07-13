@@ -79,7 +79,7 @@ def cart():
         print("The Amount Payed is ",sum)
         print("Thanks For Shopping with us")
     elif(c==2):
-        n=int(input("Which product do u want to delete: "))
+        n=int(input("Which product do you want to delete: "))
         for i in range((n-1),(len(crt)-1)):
             crt[i]=crt[i+1]
             amt[i]=amt[i+1]
